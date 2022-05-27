@@ -1,0 +1,51 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(../img/4884273.jpg);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    /*Que no se repita la imagen de fondo*/
+    background-repeat: no-repeat;
+    /*Posicion del fondo*/
+    background-position: center;
+    /*Alto de la pantalla*/
+    height: 100vh;
+    
+    
+}
+h1{
+    color: aqua;
+    margin-top: 70px;
+    font-size: 45px;
+    border-style: solid;
+}
+h2{
+    color: lawngreen;
+    font-size: 35px;
+}
+h3{
+    color: aqua;
+    font-size: 25px;
+}
+p{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+button{
+    padding: 10px 30px;
+    background-color: lawngreen;
+    cursor: pointer;
+    border: solid 5px rgb(68, 136, 0);
+    transition: .3s;
+    margin: 20px;
+}
+/*Hover es un estado de los elementos que se activa al pasar el cursor sobre estos*/
+button:hover{
+    background: transparent;
+    color: lawngreen;
+    font-size: 15px;
+
+}
